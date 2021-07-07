@@ -56,15 +56,47 @@
 		92B7EA452695C42200747A44 /* TestGitProject */ = {
 			isa = PBXGroup;
 			children = (
-				92B7EA462695C42200747A44 /* AppDelegate.swift */,
-				92B7EA482695C42200747A44 /* SceneDelegate.swift */,
-				92B7EA4A2695C42200747A44 /* ViewController.swift */,
-				92B7EA4C2695C42200747A44 /* Main.storyboard */,
+				92B7EA5B2695C44500747A44 /* Supporting files */,
+				92B7EA5C2695C46000747A44 /* Model */,
+				92B7EA5D2695C47400747A44 /* View */,
+				92B7EA5E2695C47C00747A44 /* Controller */,
 				92B7EA4F2695C42300747A44 /* Assets.xcassets */,
-				92B7EA512695C42300747A44 /* LaunchScreen.storyboard */,
 				92B7EA542695C42300747A44 /* Info.plist */,
 			);
 			path = TestGitProject;
+			sourceTree = "<group>";
+		};
+		92B7EA5B2695C44500747A44 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				92B7EA462695C42200747A44 /* AppDelegate.swift */,
+				92B7EA482695C42200747A44 /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		92B7EA5C2695C46000747A44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92B7EA5D2695C47400747A44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92B7EA4C2695C42200747A44 /* Main.storyboard */,
+				92B7EA512695C42300747A44 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		92B7EA5E2695C47C00747A44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92B7EA4A2695C42200747A44 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
